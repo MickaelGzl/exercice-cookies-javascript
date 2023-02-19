@@ -1,0 +1,30 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  font-family: Lato, sans-serif;
+  background: linear-gradient(to right, #ffefba, #ffffff); 
+  padding: clamp(20px, 5vw, 50px) 20px 10px;
+}
+
+#cookieList{
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid #000;
+}
+
+td{
+  width: 90vw;
+  height: 2em;
+  text-align: center;
+}
+
+th{
+  width: 90vw;
+  height: 2em;
+}
